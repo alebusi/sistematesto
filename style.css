@@ -9,64 +9,8 @@ html, body {
     user-select: none; /* Standard syntax */
 }
 
-table {
-    top: 100%;
-    left: 50%;
+form {
+    top: 10%;
+    left: 10%;
     position: absolute;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    animation: mymove 4s infinite;
-    animation-timing-function: linear;
-}
-
-td {
-  margin: 0;
-  padding: 0;
-  width: 25vw;
-  height: 80px;
-  background-color: white;
-}
-
-#elemento {
-    width: 100px;
-    height: 100px;
-    top: 20%;
-    left: 50%;
-    position: absolute;
-    background-color: orange;
-    border-radius: 100px;
-    /* border: solid 8px white; */
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-#guida {
-    top: 20%;
-    left: 50%;
-    width: 80vw;
-    height: 0;
-    border-top: dotted 5px white;
-    position: absolute;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.sinistra {
-    position: fixed;
-    width: 50vw;
-    height: 99vh;
-    touch-action: none;
-}
-
-.destra {
-    position: fixed;
-    width: 50vw;
-    height: 99vh;
-    left: 50vw;
-    touch-action: none;
-}
-
-@keyframes mymove {
-  0%   {top: 110%;}
-  100% {top: -6vw;}
 }
