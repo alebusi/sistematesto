@@ -16,4 +16,8 @@ form {
 }
 label {
     width: 150px;
+    display: inline-block;
+}
+input {
+    width: 500px;
 }
