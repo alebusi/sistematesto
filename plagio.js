@@ -1,61 +1,17 @@
-var caselle = ["uno","due","tre","quattro"];
-var colori = ["#FF3300","orange","#4285F4","#0F9D58"];
-var pos = 50;
-var dir = 1;
-var ind = 0;
-var indSave = 0;
-
-function verTastoPremuto(e) {
-  if (e.keyCode == 37) {
-      dir=-1;
-  } else if (e.keyCode == 39) {
-      dir=1;
+function generaTesto() {
+  testo="Titolo del libro "+document.getElementById("titolo").value+"...";
+  testo=testo+" Autore "+document.getElementById("autore").value+"...";
+  testo=testo+"Ecco le proposte...";
+  testo=testo+"Uno: "+document.getElementById("incipit").value+" "+document.getElementById("risp1").value+"...";
+  testo=testo+"Due: "+document.getElementById("incipit").value+" "+document.getElementById("risp2").value+"...";
+  testo=testo+"Tre: "+document.getElementById("incipit").value+" "+document.getElementById("risp3").value+"...";
+  testo=testo+"Quattro: "+document.getElementById("incipit").value+" "+document.getElementById("risp4").value+"...";
+  if (document.getElementById("risp5").value != "") {
+    testo=testo+"Cinque: "+document.getElementById("incipit").value+" "+document.getElementById("risp5").value+"...";
   }
-  muoviPallaT(dir);
-}
-
-function muoviPallaT(direction) {
-		  pos+=direction;
-      if (pos > 90) pos=90;
-      if (pos < 10) pos=10;
-      document.getElementById("elemento").style.left=pos+"%";
-}
-
-function muoviPalla(direction) {
-    muoviPallaT(direction);
-    try {clearInterval(myTimer);}
-		catch(err){}
-    myTimer = setInterval(function() {
-		  pos+=direction;
-      if (pos > 90) pos=90;
-      if (pos < 10) pos=10;
-      document.getElementById("elemento").style.left=pos+"%";
-	  }, 24);
-}
-
-function resetInt() {
-    try {clearInterval(myTimer);}
-		catch(err){}
-}
-
-function randomIntFromInterval(min,max) {
-    return Math.floor(Math.random()*(max-min+1)+min);
-}
-
-function disegnaMattoni() {
-    coloraMattoni();
-    myTimerBlack = setInterval(coloraMattoni, 4000);
-}
-  
-  
-function coloraMattoni() {
-      while (ind == indSave) {
-          ind=randomIntFromInterval(0,caselle.length - 1);
-      }
-      for (step = 0; step < caselle.length; step++) { 
-          document.getElementById(caselle[step]).style.backgroundColor=colori[ind];
-      }
-      document.getElementById(caselle[ind]).style.backgroundColor="black";
-      document.getElementById("elemento").style.backgroundColor=colori[ind];
-      indSave=ind;
+  if (document.getElementById("risp6").value != "") {
+    testo=testo+"Sei: "+document.getElementById("incipit").value+" "+document.getElementById("risp6").value+"...";
+  }
+  testo=testo+"Ora tocca a voi dare la risposta corretta!";
+  alert(testo);
 }
