@@ -8,7 +8,7 @@ html, body {
 
 form {
     top: 10%;
-    left: 10%;
+    left: 5%;
     position: absolute;
 }
 label {
@@ -18,9 +18,10 @@ label {
 input {
     width: 500px;
 }
-testo {
+#testo {
     top: 10%;
-    left: 70%;
-    width: 25%;
+    left: 60%;
+    width: 35%;
+    border: 1px solid black;
     position: absolute;
 }
