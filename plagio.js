@@ -26,6 +26,9 @@ function generaTesto() {
   if (document.getElementById("risp6").value != "") {
     testo=testo+"Sei: "+document.getElementById("risp6").value+"...<br>";
   }
+  if (document.getElementById("risp7").value != "") {
+    testo=testo+"Sette: "+document.getElementById("risp7").value+"...<br>";
+  }
   testo=testo+"Ora tocca a voi dare la risposta corretta!";
   document.getElementById("testo").innerHTML = testo;
 }
