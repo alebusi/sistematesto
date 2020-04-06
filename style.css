@@ -2,27 +2,30 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: Helvetica,Arial,Sanserif;
     background: white;
-    overflow: hidden;
 }
 
 form {
-    top: 10%;
+    top: 5%;
     left: 5%;
     position: absolute;
 }
 label {
     width: 100px;
+    font-weight: bold;
     display: inline-block;
 }
+#autore, #risp1 {
+  margin-bottom: 30px;
+} 
 input {
     width: 500px;
 }
 #testo {
-    top: 10%;
+    top: 5%;
     left: 60%;
     width: 35%;
-    border: 1px solid black;
     position: absolute;
 }
 #istruzioni {
