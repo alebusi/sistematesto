@@ -41,6 +41,7 @@ function generaTesto() {
     testo=testo+"Sette: "+document.getElementById(sequenza[6]).value+"...<br>";
   }
   testo=testo+"Ora tocca a voi dare la risposta corretta!";
+  testo=sistemaTesto(testo);
   document.getElementById("testo").innerHTML = testo;
 }
 
@@ -69,4 +70,13 @@ function recRisp() {
     txt=document.getElementById(sequenza[ind]).value;
     ind=ind+1;
     return txt;
+}
+
+function sistemaTesto(testo) {
+  testo = testo.replace(/à/ig,"ah");
+  testo = testo.replace(/ì/ig,"ih");
+  testo = testo.replace(/ù/ig,"uh");
+  testo = testo.replace(/ò/ig,"oh");
+  testo = testo.replace(/è/ig,"eh");
+  return testo;
 }
