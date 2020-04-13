@@ -5,23 +5,23 @@ html, body {
     font-family: Helvetica,Arial,Sanserif;
     background: white;
 }
-
 form {
     top: 5%;
     left: 5%;
+    width: 50%;
     position: absolute;
 }
 label {
-    width: 100px;
+    width: 20%;
     font-weight: bold;
     display: inline-block;
+}
+input {
+    width: 78%;
 }
 #autore, #risp1 {
   margin-bottom: 30px;
 } 
-input {
-    width: 500px;
-}
 #testo {
     top: 5%;
     left: 60%;
