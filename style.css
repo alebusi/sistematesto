@@ -7,7 +7,22 @@ html, body {
 }
 
 #testoIn, #testoOut {
+    top: 5vh;
     width: 40vw;
     height: 80vh;
     position: absolute;
+}
+
+ol {
+    left: 5vw;
+    top: 90vh;
+    position: absolute;
+}
+
+#testoIn {
+    left: 5vw;
+}
+
+#testoOut {
+    left: 55vw;
 }
