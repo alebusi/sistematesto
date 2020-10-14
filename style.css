@@ -19,15 +19,14 @@ label {
 input {
     width: 78%;
 }
-#autore, #risp1 {
-  margin-bottom: 30px;
-} 
-#testo {
+
+#testoOut {
     top: 5%;
     left: 60%;
     width: 35%;
     position: absolute;
 }
+
 #istruzioni {
     top: 85%;
     left: 5%;
