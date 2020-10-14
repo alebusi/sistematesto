@@ -5,28 +5,9 @@ html, body {
     font-family: Helvetica,Arial,Sanserif;
     background: white;
 }
-form {
-    top: 5%;
-    left: 5%;
-    position: absolute;
-}
-label {
-    width: 20%;
-    font-weight: bold;
-    display: inline-block;
-}
-input {
-    width: 78%;
-}
 
 #testoIn, #testoOut {
-    width: 35%;
-    height: 400px;
-    position: absolute;
-}
-
-#istruzioni {
-    top: 85%;
-    left: 5%;
+    width: 40vw;
+    height: 80vh;
     position: absolute;
 }
