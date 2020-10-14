@@ -1,7 +1,7 @@
 function generaTesto() {
   testo=document.getElementById("testoIn").value;
   testo=sistemaTesto(testo);
-  document.getElementById("testoOut").innerHTML = testo;
+  document.getElementById("testoOut").value = testo;
 }
 
 function sistemaTesto(testo) {
