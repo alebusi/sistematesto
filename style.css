@@ -26,3 +26,13 @@ ol {
 #testoOut {
     left: 55vw;
 }
+
+button {
+    color: white;
+    background-color: #ff3300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
