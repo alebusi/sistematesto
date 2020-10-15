@@ -1,5 +1,5 @@
 function generaTesto() {
-  testo="<html><head><meta charset="utf-8" /><title>Altavoce</title></head><body><div>";
+  testo="<html><head><title>Altavoce</title></head><body><div>";
   testo=testo+document.getElementById("testoIn").value;
   testo=sistemaTesto(testo);
   testo=testo+"</div></body></html>";
