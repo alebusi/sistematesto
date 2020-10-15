@@ -30,6 +30,7 @@ ol {
 button {
     color: white;
     background-color: #ff3300;
+    padding: 12px;
     position: absolute;
     top: 50%;
     left: 50%;
