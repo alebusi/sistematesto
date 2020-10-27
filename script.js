@@ -1,6 +1,6 @@
 function generaTesto() {
   //testo="<html><head><title>Altavoce</title></head><body><div>";
-  testo=testo+document.getElementById("testoIn").value;
+  testo=document.getElementById("testoIn").value;
   testo=sistemaTesto(testo);
   //testo=testo+"</div></body></html>";
   document.getElementById("testoOut").value = testo;
