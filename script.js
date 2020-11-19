@@ -40,5 +40,8 @@ function sistemaTesto(testo) {
 
 function estraiPos(testo, pos) {
   posFinale=testo.indexOf(".",pos);
+  if (pos_finale == -1) {
+    posFinale=pos;
+  }
   return posFinale;
 }
