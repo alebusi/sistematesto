@@ -11,6 +11,7 @@ function generaTesto() {
   testo=testo.substr(posFinale+1);
   // due
   posFinale=estraiPos(testo,pos);
+  alert("pos finale "+posFinale);
   testoCut=testo.substr(0,posFinale+1);  
   document.getElementById("testoOut2").value = testoCut;
   testo=testo.substr(posFinale+1);
