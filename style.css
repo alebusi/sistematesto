@@ -7,12 +7,12 @@ html, body {
 }
 
 #testoIn, #testoOut, #testoOut2, #testoOut3, #testoOut4 {
-    top: 5vh;
     width: 40vw;
     position: absolute;
 }
 
 #testoIn {
+    top: 5vh;
     left: 5vw;
     height: 80vh;
 }
