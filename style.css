@@ -6,7 +6,7 @@ html, body {
     background: white;
 }
 
-#testoIn, #testoOut {
+#testoIn, #testoOut, #testoOut2, #testoOut3, #testoOut4 {
     top: 5vh;
     width: 40vw;
     position: absolute;
