@@ -8,22 +8,22 @@ function generaTesto() {
   posFinale=estraiPos(testo,pos);
   testoCut=testo.substr(0,posFinale+1);  
   document.getElementById("testoOut").value = testoCut;
-  testo=testo.substr(posFinale+1);
+  testo=testo.substr(posFinale+2);
   // due
   posFinale=estraiPos(testo,pos);
-  testoCut=testo.substr(0,posFinale);  
+  testoCut=testo.substr(0,posFinale+1);  
   document.getElementById("testoOut2").value = testoCut;
-  testo=testo.substr(posFinale+1);
+  testo=testo.substr(posFinale+2);
   // tre
   posFinale=estraiPos(testo,pos);
-  testoCut=testo.substr(0,posFinale);  
+  testoCut=testo.substr(0,posFinale+1);  
   document.getElementById("testoOut3").value = testoCut;
-  testo=testo.substr(posFinale+1);
+  testo=testo.substr(posFinale+2);
   // quattro
   posFinale=estraiPos(testo,pos);
-  testoCut=testo.substr(0,posFinale);  
+  testoCut=testo.substr(0,posFinale+1);  
   document.getElementById("testoOut4").value = testoCut;
-  testo=testo.substr(posFinale+1);  
+  testo=testo.substr(posFinale+2);  
   
   //testo=testo+"</div></body></html>";
 }
