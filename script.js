@@ -6,12 +6,13 @@ function generaTesto() {
   testo=sistemaTesto(testo);
   //
   posFinale=estraiPos(testo,pos);
+  alert("pos finale 1"+posFinale);
   testoCut=testo.substr(0,posFinale+1);  
   document.getElementById("testoOut").value = testoCut;
   testo=testo.substr(posFinale+1);
   // due
   posFinale=estraiPos(testo,pos);
-  alert("pos finale "+posFinale);
+  alert("pos finale 2"+posFinale);
   testoCut=testo.substr(0,posFinale+1);  
   document.getElementById("testoOut2").value = testoCut;
   testo=testo.substr(posFinale+1);
