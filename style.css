@@ -22,6 +22,10 @@ html, body {
     height: 18vh;
 }
 
+#testoOut {
+    top: 5vh;
+}
+
 #testoOut2 {
     top: 25vh;
 }
