@@ -9,22 +9,35 @@ html, body {
 #testoIn, #testoOut {
     top: 5vh;
     width: 40vw;
-    height: 80vh;
     position: absolute;
+}
+
+#testoIn {
+    left: 5vw;
+    height: 80vh;
+}
+
+#testoOut,#testoOut2, #testoOut3, #testoOut4 {
+    left: 55vw;
+    height: 18vh;
+}
+
+#testoOut2 {
+    top: 25vh;
+}
+
+#testoOut3 {
+    top: 45vh;
+}
+
+#testoOut4 {
+    top: 65vh;
 }
 
 ol {
     left: 5vw;
     top: 90vh;
     position: absolute;
-}
-
-#testoIn {
-    left: 5vw;
-}
-
-#testoOut {
-    left: 55vw;
 }
 
 button {
