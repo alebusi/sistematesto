@@ -37,8 +37,8 @@ function generaTesto() {
 
 function sistemaTesto(testo) {
   testo = testo.replace(/à/ig,"ah");
-  testo = testo.replace(/ì/ig,"ih");
-  testo = testo.replace(/ù/ig,"uh");
+  testo = testo.replace(/ì/ig,"ii");
+  testo = testo.replace(/ù/ig,"uu");
   testo = testo.replace(/ò/ig,"oh");
   testo = testo.replace(/è/ig,"eh");
   testo = testo.replace(/é/ig,"eh");
