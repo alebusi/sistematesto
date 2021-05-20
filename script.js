@@ -7,6 +7,9 @@ function generaTesto() {
   //
   if (document.getElementById("dividi").checked == false) {
     document.getElementById("testoOut").value = testo;
+    document.getElementById("testoOut2").value = "";
+    document.getElementById("testoOut3").value = "";
+    document.getElementById("testoOut4").value = "";
   }
   else {
     posFinale=estraiPos(testo,pos);
