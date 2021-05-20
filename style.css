@@ -55,7 +55,7 @@ button {
     transform: translate(-50%, -50%);
 }
 
-.boxDividi {
+#boxDividi {
     display: inline-block;
     background-color: #ff3300;
     padding: 12px;
