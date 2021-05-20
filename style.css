@@ -61,3 +61,7 @@ button {
     top: 50%;
     left: 50%;
 }
+
+#dividi {
+    display: inline-block;
+}
