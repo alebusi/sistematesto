@@ -1,7 +1,7 @@
-var targetFileId1 = "16CbLxt-lWdQyXTM9IVz_KBC1-7GmdpohtnG2ZzStn4w";
-var targetFileId2 = "1sRR7l35CNwreLbRkBWkniFKrGBVlBKXwVFojfQYYF3Y";
-var targetFileId3 = "1vbnmWGUAjFABMK3GAsvNMHGP_lLnSibgtSblDpxrQag";
-var targetFileId4 = "1d2XRPVuScck8BJpPdXdt2bzgQq_BIg9Pk7afA1tgxaU";
+//var targetFileId1 = "16CbLxt-lWdQyXTM9IVz_KBC1-7GmdpohtnG2ZzStn4w";
+//var targetFileId2 = "1sRR7l35CNwreLbRkBWkniFKrGBVlBKXwVFojfQYYF3Y";
+//var targetFileId3 = "1vbnmWGUAjFABMK3GAsvNMHGP_lLnSibgtSblDpxrQag";
+//var targetFileId4 = "1d2XRPVuScck8BJpPdXdt2bzgQq_BIg9Pk7afA1tgxaU";
 pos=7100;
 
 function generaTesto() {
