@@ -74,6 +74,7 @@ function sistemaTesto(testo) {
   testo = testo.replace(/ò/ig,"oh");
   testo = testo.replace(/è/ig,"eh");
   testo = testo.replace(/é/ig,"eh");
+  testo = testo.replace(/#/ig,"");
   return testo;
 }
 
